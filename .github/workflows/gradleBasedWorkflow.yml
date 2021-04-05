@@ -22,7 +22,7 @@ jobs:
     
     services:
       mysql-master:
-        image: mysql:latest
+        image: mysql/mysql-server:latest
         ports:
           - 3306:3306
         env:
